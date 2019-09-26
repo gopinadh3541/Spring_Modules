@@ -1,0 +1,33 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean class="com.example.bean.CallingNumbers" id="numbers">
+		<constructor-arg>
+			<value type="int">1000</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value type="float">98.76f</value>
+		</constructor-arg>
+		<constructor-arg>
+			<value type="long">123456578987</value>
+			 
+		</constructor-arg>
+		<constructor-arg>
+			<value type="double">78.08</value>
+		</constructor-arg>
+		<property name="list">
+		<list>
+		<value>Hello</value>
+		<value>World</value>
+		</list>
+		</property>
+		<property name="map">
+		<map>
+		<entry key="Hi" value="People"></entry>
+		<entry key="Hello" value="World"></entry>
+ 		</map>
+		</property>
+	</bean>
+</beans>
