@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <beans  xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
@@ -42,4 +43,50 @@
 
 
 </bean>
+=======
+<beans  xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+<bean id='t' class="com.practice.beans.Test">
+<property name="fruits">
+<list>
+<value>Mango</value>
+<value>Banana</value>
+<value>Grapes</value>
+<value>Orange</value>
+<value>Apple</value>
+</list>
+</property>
+<property name="cricketers">
+<set>
+<value>Dhoni</value>
+<value>Raina</value>
+<value>Kohli</value>
+<value>Dhoni</value>
+</set>
+</property>
+<property name="capitals">
+<map>
+<entry key="India" value="Delhi"></entry>
+<entry key="Srilanka" value="Colombo"></entry>
+</map>
+</property>
+<property name="properties">
+<props>
+<prop key="Rockstar">Yash</prop>
+<prop key="superstar">Mahesh Babu</prop>
+</props>
+
+</property>
+<property name="actors">
+<util:properties location="driver.properties"></util:properties>
+</property>
+
+
+
+
+
+</bean>
+>>>>>>> f6de2485f28d36154a928fc5b4db92b12e481e8b
 </beans>

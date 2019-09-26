@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Built-By: gkilli
 Build-Jdk: 1.8.0_161
 Created-By: Maven Integration for Eclipse
 
+=======
+Manifest-Version: 1.0
+Built-By: gkilli
+Build-Jdk: 1.8.0_161
+Created-By: Maven Integration for Eclipse
+
+>>>>>>> f6de2485f28d36154a928fc5b4db92b12e481e8b
