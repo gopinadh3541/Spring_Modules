@@ -1,0 +1,2 @@
+This repo will provide the different types of spring module examples. This repo contains extra important text notes for different tools and technologies to learn more topics.
+Starting with the Spring IOC.
