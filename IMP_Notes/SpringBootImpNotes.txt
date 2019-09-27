@@ -1,0 +1,24 @@
+Spring Boot Fundamentals
+------------------------
+Spring Initializr::: start.spring.io
+					 Generate the project with required dependencies and download the zip file
+					 Open the zip file in IDE. Run the application to check whether application is working or not.
+
+Based upon the dependencies in the pom.xml it will automatically configure all the required annotations. 
+
+@SpringBootApplication--- is the root annotation for spring boot application.
+It will applicable for the main class of the application.
+It is the combination of three different anotations. The three annotations are
+@ComponentScan
+@EnableAutoConfiguration
+@SpringBootConfiguration
+
+application.properties will play the major role in the springboot application. Refer the below URL to know more about the application properties
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+SpringBoot Profiles:
+ex: spring.profiles.active=dev
+application-dev.properties
+
+like application-env.properties										additional Notes: H2 data source is written on java. It will not store the data on disk. It is the best practices for POC or Dev environment.
+
