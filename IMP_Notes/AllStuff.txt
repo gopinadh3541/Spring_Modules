@@ -1,0 +1,21 @@
+Streams are used to do the functional operations on the discrete data collections.
+It will take the Stream object from the source of Data structure API like Collections, File IO,
+Then it will perform the Intermediate functions. These intermediate functions will validate or process the stream object but not produce the final output.
+It will just do the required operations like filter, skip, sorted, distinct. If it is invoked the Terminal function then only intermedaite function will return the required objects.
+Then terminal functions will take the object and produce the output. Like Max, Min, Iterator, 
+
+The main purpose of Streams are to reduce the space complexity of code for small functional operations on the discrete data collections.
+
+Java8 Features:
+lambda Expressions----------- These are like methods without names. These are applicable to the Functional Interfaces only. Previously we were using the annonymous Inner class to create an object of Functional Interface. By using this lamba expression we can write the code with clear and flexible. It will remove the verbosity.
+functional Interface annotation----- Functional interfaces are nothing but the interface which contains only one abstract method. It may contain the more default and static methods those type of Interfaces are known as the Functional Interfaces.
+Method reference-------- It is the new feature in the java to call the methods from any class except private. By using this method reference it will be helpful to the Lambda Expressions. No need to define the syntax.
+Streams API------ Streams API will help to perform different functional operations on the Data Structures API like collections. It mainly contains the three things-> Creating the object from the source of data, Doing Intermediate operations and Terminal operations to the close the stream. This Intermediate operations contains different functions like filter, collect, map, sorted, distinct.....
+Collectors------- Collectors is the Interface will provide the different methods to 
+Default Methods-------- From java 8 ownwards we can write the default methods inside the Interfaces. 
+Date API
+Base64 Encode and Decode---------------- The Base64 Encode and Decode is the new Class which has introduced in the java8 to encrypt and decrypt the values 
+ForEach----Short form for loop method no need to mention the intialization, condition and increment or decrement operation it will do it itself automatically..
+
+
+

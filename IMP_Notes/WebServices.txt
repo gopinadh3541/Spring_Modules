@@ -1,0 +1,99 @@
+Web Service:
+-----------
+It is a client-server application.
+WebService is a method of communication between the different servers over network.
+It is a language independent way of communication.
+
+Types of WebServices:
+---------------------
+1.SOAP
+2.RESTFul
+	---- It Stands for Represnetational State Transfer.
+	---- It is an architectural style not a protocol.
+	Advantages:
+	----------
+	1. Fast in executing the services.
+	2. Consume less bandwidth and resources.
+	3. Language and platform independent.
+	4. Permits different Data types like Plain text, XML, HTML and JSON.
+	5. Can use a SOAP as the implementation.
+
+Features of WebServices
+------------------------
+1.XML Based language
+2.Loosely Coupled.
+3.Synchronous and Asynchronous
+4.RPC.
+5.Document Exchange.
+
+Three Major Web Services components:
+1.SOAP
+		--- (Simple Object Access protocol)
+		--- it is XML based protocol for accessing web services
+		--- W3c recommended to use for communication between applications.
+		--- It is platform Independent and Language independent.
+
+		Advantages:
+		-----------
+		1. WS security: It contains the own security.(WS Security)
+		2. Language and platform Independent: Can be written in any language and can execute in any language.
+		Dis Advantages:
+		---------------
+		1. Slow: SOAP uses XML that must be parsed to read. So it is slow and consumes more bandwidth and resource.
+		2. WSDL Dependent: SOAP uses WSDL and doesn't have any other mechanism to perform.
+
+2.WSDL(Wiz-dull)
+		--- Web Services Description Language.
+		--- It is a XML document. It contains the information about methods, parameters and how to access it.
+		--- It is the part of UDDI. It acts as interface between two web service applications.
+3.UDDI
+		--- Universal Description, Discovery and Integration.
+		--- It is a XML based framework for describing, discovering and integrating web services.
+		--- It is a directory of web service interfaces described by WSDL, containing information about the web services.
+		
+SOA (Service Oriented Architecture)
+-----------------------------------
+Service oriented Architecture is a design pattern. It is designed to build distributed systems that deliver services to other applications through protocol.
+
+What is a service?
+------------------
+Service is a well defined, self contained function that represents a unit functionality. A Service can exchange information from other service.
+It is not dependent on the state of service. It uses loosely coupled and message based communication model between applications.
+
+For Example
+-----------
+Service consumer sends the service request to the Service provider.
+Service provider sends the service response to the service consumer. 
+
+Service Oriented Terminologies:
+------------------------------
+1. Services: The services are logical entities that defined by the different interfaces. 
+2. Service provider: It is a software entity that implements the service specification.
+3. Service Consumer: It can be called as Service requestor or client that request for service provider. It can be another service or end-user application.
+4. Service Locator: It is a service provider that acts as a registry. It is responsible for examining the service provider interfaces and service locations.
+5. Service Broker: It is a service provider that sends the request to different service providers.
+
+
+
+Java Web Services Tutorials:
+-----------------------------
+This application perform communication through WSDL. There are two ways to write java web service application code: SOAP and RESTFul.
+
+Java WebServices API:
+---------------------
+JAX-WS: This is for SOAP. This can be written in two ways by RPC Style and Document Style.
+JAX-RS: This is for RESTFul. This can be written in two ways by Jersey and RESTEasy.
+
+Difference b/w RPC Style and Document Style:
+--------------------------------------------
+1. RPC style uses method names and parameters to generate XML.   
+2. SOAP message sent as many elements									  | SOAP message is sent as single document.
+3. It is tightly coupled.                                                 | In document style, it is loosely coupled.
+4. It is difficult to validated against schema.                           | In document style, can be validated against Schema
+5. Parameters are sent as discrete values.                                | In document style, parameters are sent in XML 
+ 
+
+
+
+
+
